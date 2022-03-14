@@ -1,0 +1,16 @@
+----------------------------------------------------------------
+Mon Mar 07 20:06:55 CET 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-017f-65c7-01dc-000012256118 
+on database directory memory:/Users/alnomaab/development/BankAccountToy/fe4c6c7c-b24b-49dd-aff1-8f1467c1b3eb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@512ddf17 
+Loaded from file:/Users/alnomaab/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=11.0.2+9
+user.dir=/Users/alnomaab/development/BankAccountToy
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.16
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue Mar 08 18:53:03 CET 2022:
+Shutting down instance a816c00e-017f-65c7-01dc-000012256118 on database directory memory:/Users/alnomaab/development/BankAccountToy/fe4c6c7c-b24b-49dd-aff1-8f1467c1b3eb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@512ddf17 

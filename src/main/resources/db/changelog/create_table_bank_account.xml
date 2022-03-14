@@ -1,0 +1,20 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+
+    <changeSet id="create table for bank account" author="abdullah">
+        <createTable tableName="BANK_ACCOUNT">
+            <column name="iban" type="VARCHAR(50)">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="bank_account_type" type="VARCHAR(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="balance" type="numeric(19, 2)">
+                <constraints nullable="false" />
+            </column>
+            <column name="locked" type="BOOLEAN" defaultValue="false"/>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>
